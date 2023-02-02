@@ -120,7 +120,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-installations-interop:17.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-measurement-connector:19.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk:21.2.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.github.devdenybit:Cob-Frame-ProgressBar:4.13.4@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="VPNVideoCallProject.app.main" />
 </module>

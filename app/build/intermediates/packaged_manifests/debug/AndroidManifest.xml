@@ -91,7 +91,6 @@
         android:roundIcon="@drawable/logo"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.DevStyVC"
         android:usesCleartextTraffic="true" >
         <activity
