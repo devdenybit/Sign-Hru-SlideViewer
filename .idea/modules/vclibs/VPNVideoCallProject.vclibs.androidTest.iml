@@ -61,7 +61,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.12.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: cz.msebera.android:httpclient:4.5.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: C" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: C (1)" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: C (2)" level="project" />

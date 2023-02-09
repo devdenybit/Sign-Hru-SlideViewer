@@ -20,6 +20,3 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class org.webrtc.**  { *; }
--keep class org.appspot.apprtc.**  { *; }
-

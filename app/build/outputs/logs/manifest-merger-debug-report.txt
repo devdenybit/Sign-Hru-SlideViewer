@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclibs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-85:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\div79\.gradle\caches\transforms-3\190eb2d90ff9599b0be78460442cc8d5\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\div79\.gradle\caches\transforms-3\b789f1711050f34454266246c98af6dc\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
@@ -13,9 +13,9 @@ MERGED from [com.google.android.material:material:1.7.0] C:\Users\div79\.gradle\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\div79\.gradle\caches\transforms-3\65064e1c7182490c1d150b9b76a560b7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\div79\.gradle\caches\transforms-3\628d736f3fba375f46df6fce24f39890\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\div79\.gradle\caches\transforms-3\e18630442004512bcbbf15c6e4e793d3\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:2:1-136:12
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\div79\.gradle\caches\transforms-3\ac24cefb4c2cd298c39faa0a9c59f296\transformed\jetified-exomedia-4.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:2:1-136:12
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:2:1-17:12
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:2:1-21:12
@@ -40,7 +40,6 @@ MERGED from [com.github.AnchorFreePartner.toolkit-android:toolkit:1.5.7] C:\User
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\div79\.gradle\caches\transforms-3\36ecbbb481602c3ae48671558246e914\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\235e88a6adc6f1e3927eebb8c606513a\transformed\jetified-firebase-analytics-21.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\584abd8963c28ad276469a048d27dc48\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.github.bumptech.glide:glide:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\9bcb18ccac54c106a82d20a4cdba19c5\transformed\jetified-glide-4.14.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\41793511fd14a59993bd78ef725da81c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\01a90b1a81eb1220bb82c8cc2242205d\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:17:1-37:12
@@ -68,6 +67,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.facebook.android:audience-network-sdk:6.12.0] C:\Users\div79\.gradle\caches\transforms-3\71ac205c84e1a8ee21a822310afcf4ca\transformed\jetified-audience-network-sdk-6.12.0\AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.gms:play-services-ads-base:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\6732d6dbcce9092bd17597eec7c567c1\transformed\jetified-play-services-ads-base-21.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\div79\.gradle\caches\transforms-3\66c1d7924037ea58bea92fcc486dcf85\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\2c60ec43d677a5fa22c956acf9b31517\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\div79\.gradle\caches\transforms-3\234a987c68a5b08b25e9e769808da773\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\div79\.gradle\caches\transforms-3\513d45c96d7bbe186d58d15abd5b9a72\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
@@ -111,8 +111,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\di
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\div79\.gradle\caches\transforms-3\5d4474a1c35466a47562d6ccd8e4dcd1\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\982186ab89267c59adc934cf715c71d2\transformed\jetified-gifdecoder-4.14.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\div79\.gradle\caches\transforms-3\0320d24ea44c93af4431c9717829bd0d\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\8e1dd9e6caf7b2b8be1870e16bebcd68\transformed\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\54250772cabab0571dd68f327ad1a5d5\transformed\jetified-exoplayer-hls-2.9.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\1c2afe7cd45e0aeafc99338fabad93cb\transformed\jetified-exoplayer-smoothstreaming-2.9.1\AndroidManifest.xml:17:1-24:12
@@ -121,6 +119,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\div79\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\70fa420fde22917860dc74c9ba718081\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\50e7955fff68f82323bfce3c6ced3ff8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\c394cfa068512591cb2c828e35d23cff\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\44d1a5d9bc338fb27c3089df275ba875\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\cedf71585500811337e22578ed4732b6\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\02700180c9ecd1dcc204100269ac8abe\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
@@ -135,35 +135,35 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\div79\.gradle\caches\transfo
 MERGED from [io.github.inflationx:calligraphy3:3.1.1] C:\Users\div79\.gradle\caches\transforms-3\cb868713955e41cc262ec0a1c57fe4d9\transformed\jetified-calligraphy3-3.1.1\AndroidManifest.xml:2:1-13:12
 MERGED from [io.github.inflationx:viewpump:2.0.3] C:\Users\div79\.gradle\caches\transforms-3\7e62fc0cf0dac503e4da0281198a344d\transformed\jetified-viewpump-2.0.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\2fb81da48d7388acb45f572248f79ec9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\div79\.gradle\caches\transforms-3\a7a1d4a5ac1cf5f856ff78640dc6c179\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\8a6a414d4b6acfce9cd806cb015d856f\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.loopj.android:android-async-http:1.4.11] C:\Users\div79\.gradle\caches\transforms-3\4fcc93fc39f1cc71d42eab89d0cc2b20\transformed\jetified-android-async-http-1.4.11\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.AnchorFree.hydra-vpn-android:aar-hydra:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\2215e5034be9a6605cb67b312acd7f66\transformed\jetified-aar-hydra-06bcfa7\AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.AnchorFree.hydra-vpn-android:openvpn-aar:b80c971] C:\Users\div79\.gradle\caches\transforms-3\4980df330cda0a4ebd15e625ddf9fd03\transformed\jetified-openvpn-aar-b80c971\AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.AnchorFreePartner:ReLinker:1.3.2] C:\Users\div79\.gradle\caches\transforms-3\d2d3b46d63f3ed1bbac2a938d9bca93d\transformed\jetified-ReLinker-1.3.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\div79\.gradle\caches\transforms-3\55f9ab662fed25354e80123b6fcf9e35\transformed\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:7:5-31:19
+ADDED from C:\Users\div79\Desktop\New Module\VPNVideoCallProject\app\src\main\AndroidManifest.xml:7:5-28:19
 MERGED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclibs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-83:19
 MERGED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclibs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-83:19
 MERGED from [com.github.devdenybit:Cob-Frame-ProgressBar:4.13.4] C:\Users\div79\.gradle\caches\transforms-3\3a92630799bd1796fe74b40da318927d\transformed\jetified-Cob-Frame-ProgressBar-4.13.4\AndroidManifest.xml:13:5-22:19
@@ -174,12 +174,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\div79\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\div79\.gradle\caches\transforms-3\65064e1c7182490c1d150b9b76a560b7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\div79\.gradle\caches\transforms-3\e18630442004512bcbbf15c6e4e793d3\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\div79\.gradle\caches\transforms-3\e18630442004512bcbbf15c6e4e793d3\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
-MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:49:5-134:19
-MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:49:5-134:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\div79\.gradle\caches\transforms-3\ac24cefb4c2cd298c39faa0a9c59f296\transformed\jetified-exomedia-4.3.0\AndroidManifest.xml:11:5-20
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\div79\.gradle\caches\transforms-3\ac24cefb4c2cd298c39faa0a9c59f296\transformed\jetified-exomedia-4.3.0\AndroidManifest.xml:11:5-20
+MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:49:5-134:19
+MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:49:5-134:19
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:9:5-13:19
@@ -222,8 +222,6 @@ MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:store:3.6.3] C:\User
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:store:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\af24f652164e4d7a3264a54117758639\transformed\jetified-store-3.6.3\AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\235e88a6adc6f1e3927eebb8c606513a\transformed\jetified-firebase-analytics-21.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\235e88a6adc6f1e3927eebb8c606513a\transformed\jetified-firebase-analytics-21.2.0\AndroidManifest.xml:7:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.github.bumptech.glide:glide:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\9bcb18ccac54c106a82d20a4cdba19c5\transformed\jetified-glide-4.14.1\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\9bcb18ccac54c106a82d20a4cdba19c5\transformed\jetified-glide-4.14.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\41793511fd14a59993bd78ef725da81c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:28:5-44:19
@@ -266,6 +264,8 @@ MERGED from [com.google.android.gms:play-services-ads-base:21.2.0] C:\Users\div7
 MERGED from [com.google.android.gms:play-services-ads-base:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\6732d6dbcce9092bd17597eec7c567c1\transformed\jetified-play-services-ads-base-21.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\div79\.gradle\caches\transforms-3\66c1d7924037ea58bea92fcc486dcf85\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\div79\.gradle\caches\transforms-3\66c1d7924037ea58bea92fcc486dcf85\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\div79\.gradle\caches\transforms-3\a182f2e2e34c97b8238eae11492c4d15\transformed\work-runtime-2.7.0\AndroidManifest.xml:30:5-143:19
@@ -366,12 +366,12 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\div79\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\div79\.gradle\caches\transforms-3\628d736f3fba375f46df6fce24f39890\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\div79\.gradle\caches\transforms-3\e18630442004512bcbbf15c6e4e793d3\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\div79\.gradle\caches\transforms-3\e18630442004512bcbbf15c6e4e793d3\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:4:5-44
-MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:4:5-44
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\div79\.gradle\caches\transforms-3\ac24cefb4c2cd298c39faa0a9c59f296\transformed\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\div79\.gradle\caches\transforms-3\ac24cefb4c2cd298c39faa0a9c59f296\transformed\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:4:5-44
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:5:5-7:41
@@ -420,8 +420,6 @@ MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\div79\.grad
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\235e88a6adc6f1e3927eebb8c606513a\transformed\jetified-firebase-analytics-21.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\584abd8963c28ad276469a048d27dc48\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\584abd8963c28ad276469a048d27dc48\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\9bcb18ccac54c106a82d20a4cdba19c5\transformed\jetified-glide-4.14.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\9bcb18ccac54c106a82d20a4cdba19c5\transformed\jetified-glide-4.14.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\41793511fd14a59993bd78ef725da81c\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:20:5-44
@@ -476,6 +474,8 @@ MERGED from [com.google.android.gms:play-services-ads-base:21.2.0] C:\Users\div7
 MERGED from [com.google.android.gms:play-services-ads-base:21.2.0] C:\Users\div79\.gradle\caches\transforms-3\6732d6dbcce9092bd17597eec7c567c1\transformed\jetified-play-services-ads-base-21.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\div79\.gradle\caches\transforms-3\66c1d7924037ea58bea92fcc486dcf85\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\div79\.gradle\caches\transforms-3\66c1d7924037ea58bea92fcc486dcf85\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\div79\.gradle\caches\transforms-3\7578547213cc49afe9a689507339157c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\2c60ec43d677a5fa22c956acf9b31517\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\2c60ec43d677a5fa22c956acf9b31517\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\div79\.gradle\caches\transforms-3\234a987c68a5b08b25e9e769808da773\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -562,10 +562,6 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.14.1] C:\Users\div79\.gradle
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.1] C:\Users\div79\.gradle\caches\transforms-3\982186ab89267c59adc934cf715c71d2\transformed\jetified-gifdecoder-4.14.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\div79\.gradle\caches\transforms-3\0320d24ea44c93af4431c9717829bd0d\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\div79\.gradle\caches\transforms-3\0320d24ea44c93af4431c9717829bd0d\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\8e1dd9e6caf7b2b8be1870e16bebcd68\transformed\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\8e1dd9e6caf7b2b8be1870e16bebcd68\transformed\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.1] C:\Users\div79\.gradle\caches\transforms-3\54250772cabab0571dd68f327ad1a5d5\transformed\jetified-exoplayer-hls-2.9.1\AndroidManifest.xml:20:5-22:41
@@ -582,6 +578,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\50e7955fff68f82323bfce3c6ced3ff8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\c394cfa068512591cb2c828e35d23cff\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\div79\.gradle\caches\transforms-3\c394cfa068512591cb2c828e35d23cff\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b9180bb8405f0336704b477731163c5a\transformed\jetified-sdk-events-3.6.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.AnchorFreePartner:Bolts-Android:1.4.2] C:\Users\div79\.gradle\caches\transforms-3\d25789ad113826fc10164321b02fca92\transformed\jetified-Bolts-Android-1.4.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\44d1a5d9bc338fb27c3089df275ba875\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\44d1a5d9bc338fb27c3089df275ba875\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\cedf71585500811337e22578ed4732b6\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:18:5-20:41
@@ -610,14 +610,14 @@ MERGED from [io.github.inflationx:viewpump:2.0.3] C:\Users\div79\.gradle\caches\
 MERGED from [io.github.inflationx:viewpump:2.0.3] C:\Users\div79\.gradle\caches\transforms-3\7e62fc0cf0dac503e4da0281198a344d\transformed\jetified-viewpump-2.0.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\2fb81da48d7388acb45f572248f79ec9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\2fb81da48d7388acb45f572248f79ec9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\div79\.gradle\caches\transforms-3\a7a1d4a5ac1cf5f856ff78640dc6c179\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\div79\.gradle\caches\transforms-3\a7a1d4a5ac1cf5f856ff78640dc6c179\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\8a6a414d4b6acfce9cd806cb015d856f\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\div79\.gradle\caches\transforms-3\8a6a414d4b6acfce9cd806cb015d856f\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.loopj.android:android-async-http:1.4.11] C:\Users\div79\.gradle\caches\transforms-3\4fcc93fc39f1cc71d42eab89d0cc2b20\transformed\jetified-android-async-http-1.4.11\AndroidManifest.xml:5:5-7:41
 MERGED from [com.loopj.android:android-async-http:1.4.11] C:\Users\div79\.gradle\caches\transforms-3\4fcc93fc39f1cc71d42eab89d0cc2b20\transformed\jetified-android-async-http-1.4.11\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\div79\.gradle\caches\transforms-3\eea90f18b33893753b2c3aae43e75342\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [com.github.AnchorFree.hydra-vpn-android:aar-hydra:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\2215e5034be9a6605cb67b312acd7f66\transformed\jetified-aar-hydra-06bcfa7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.AnchorFree.hydra-vpn-android:aar-hydra:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\2215e5034be9a6605cb67b312acd7f66\transformed\jetified-aar-hydra-06bcfa7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.AnchorFree.hydra-vpn-android:openvpn-aar:b80c971] C:\Users\div79\.gradle\caches\transforms-3\4980df330cda0a4ebd15e625ddf9fd03\transformed\jetified-openvpn-aar-b80c971\AndroidManifest.xml:7:5-9:41
@@ -886,6 +886,16 @@ ADDED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclib
 		ADDED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclibs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:82:13-49
 	android:name
 		ADDED from [:vclibs] C:\Users\div79\Desktop\New Module\VPNVideoCallProject\vclibs\build\intermediates\merged_manifest\debug\AndroidManifest.xml:81:13-69
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:7:5-9:47
 	android:protectionLevel
@@ -1142,16 +1152,6 @@ ADDED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transfo
 		ADDED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:133:13-72
 	android:name
 		ADDED from [com.onesignal:OneSignal:4.8.4] C:\Users\div79\.gradle\caches\transforms-3\c02f30c30aac0fd7813c6a48f01cafad\transformed\jetified-OneSignal-4.8.4\AndroidManifest.xml:129:13-85
-activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
-ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
-	android:label
-		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
-	android:exported
-		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
-	android:theme
-		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
-	android:name
-		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\div79\.gradle\caches\transforms-3\90211bff87037099cead3d737925265d\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
 meta-data#com.anchorfree.vpnsdk.vpn_config.openvpn
 ADDED from [com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\7b9b33f69c07cce0e376c7abd4b55f3c\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:12:9-14:58
 	android:resource

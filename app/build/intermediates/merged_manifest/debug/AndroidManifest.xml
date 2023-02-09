@@ -91,6 +91,7 @@
         android:roundIcon="@drawable/logo"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.DevStyVC"
         android:usesCleartextTraffic="true" >
         <activity
@@ -150,6 +151,11 @@
         <activity
             android:name="com.gerop.mpsvue.unitlity.TestActivity_10"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
 
         <receiver
             android:name="com.onesignal.FCMBroadcastReceiver"
@@ -235,11 +241,6 @@
             android:exported="true"
             android:noHistory="true"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-            android:exported="false"
-            android:label=""
-            android:theme="@style/EasyPermissions.Transparent" />
 
         <meta-data
             android:name="com.anchorfree.vpnsdk.vpn_config.openvpn"

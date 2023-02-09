@@ -1,30 +1,28 @@
 package com.gerop.mpsvue.models;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 
 public class MoreApp {
 
-    @SerializedName("name")
-    @Expose
+    /*@SerializedName("name")
+    @Expose*/
     private String name;
-    @SerializedName("image")
+   /* @SerializedName("image")
     @Expose
-    private String image;
-    @SerializedName("url")
-    @Expose
+    private String image;*/
+  /*  @SerializedName("url")
+    @Expose*/
     private String url;
-    @SerializedName("rate")
+  /*  @SerializedName("rate")
     @Expose
-    private String rate;
+    private String rate;*/
 
-    public String getRate() { return rate; }
+   /* public String getRate() { return rate; }
 
     public void setRate(String rate) {
         this.rate = rate;
     }
-
+*/
     public String getName() {
         return name;
     }
@@ -33,14 +31,14 @@ public class MoreApp {
         this.name = name;
     }
 
-    public String getImage() {
+   /* public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
     }
-
+*/
     public String getUrl() {
         return url;
     }
