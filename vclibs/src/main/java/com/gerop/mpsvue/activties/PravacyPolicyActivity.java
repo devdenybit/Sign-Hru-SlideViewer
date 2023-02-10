@@ -2,6 +2,7 @@ package com.gerop.mpsvue.activties;
 
 
 import static com.jesdene.jesdenias.MyAdZOne.Privacy_Policy;
+import static com.jesdene.jesdenias.MyAdZOne.app_DeveloperOption_Check_Mode;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -18,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.gerop.mpsvue.R;
+import com.gerop.mpsvue.utility.DevModeOptionCheck;
 
 public class PravacyPolicyActivity extends AppCompatActivity {
 
@@ -26,6 +28,10 @@ public class PravacyPolicyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pravcy_policy);
+
+        if(app_DeveloperOption_Check_Mode.equalsIgnoreCase("true")){
+            DevModeOptionCheck.getInstance(this).DevMode_Check();
+        }
 
         final CardView spinKitView = findViewById(R.id.spin_kit);
         spinKitView.setVisibility(View.VISIBLE);

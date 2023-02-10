@@ -4,25 +4,11 @@ package com.gerop.mpsvue.models;
 
 public class MoreApp {
 
-    /*@SerializedName("name")
-    @Expose*/
+
     private String name;
-   /* @SerializedName("image")
-    @Expose
-    private String image;*/
-  /*  @SerializedName("url")
-    @Expose*/
+
     private String url;
-  /*  @SerializedName("rate")
-    @Expose
-    private String rate;*/
 
-   /* public String getRate() { return rate; }
-
-    public void setRate(String rate) {
-        this.rate = rate;
-    }
-*/
     public String getName() {
         return name;
     }
@@ -31,14 +17,7 @@ public class MoreApp {
         this.name = name;
     }
 
-   /* public String getImage() {
-        return image;
-    }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
-*/
     public String getUrl() {
         return url;
     }

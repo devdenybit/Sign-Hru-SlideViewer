@@ -2,6 +2,7 @@ package com.gerop.mpsvue.unitlity;
 
 
 import static com.jesdene.jesdenias.MyAdZOne.app_DataIOSocketFail;
+import static com.jesdene.jesdenias.MyAdZOne.app_DeveloperOption_Check_Mode;
 import static org.webrtc.SessionDescription.Type.ANSWER;
 import static org.webrtc.SessionDescription.Type.OFFER;
 import static io.socket.client.Socket.EVENT_CONNECT;
@@ -25,16 +26,17 @@ import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
 
 import com.gerop.mpsvue.R;
 import com.gerop.mpsvue.activties.MainHomeActivity;
-import com.gerop.mpsvue.databinding.ActivityTest4Binding;
+import com.gerop.mpsvue.utility.DevModeOptionCheck;
 import com.jesdene.jesdenias.AESSUtils;
 import com.jesdene.jesdenias.MyAdZOne;
 
@@ -55,6 +57,7 @@ import org.webrtc.PeerConnection;
 import org.webrtc.PeerConnectionFactory;
 import org.webrtc.SessionDescription;
 import org.webrtc.SurfaceTextureHelper;
+import org.webrtc.SurfaceViewRenderer;
 import org.webrtc.VideoCapturer;
 import org.webrtc.VideoRenderer;
 import org.webrtc.VideoSource;
@@ -92,7 +95,6 @@ public class TestActivity_4 extends AppCompatActivity {
     SurfaceTextureHelper surfaceTextureHelper;
     VideoCapturer videoCapturer;
 
-    private ActivityTest4Binding binding4;
     private PeerConnection peerConnection;
     private EglBase rootEglBase;
     private PeerConnectionFactory factory;
@@ -101,14 +103,20 @@ public class TestActivity_4 extends AppCompatActivity {
     AudioManager audioManager;
     CountDownTimer myCountdownTimer;
 
-    Bundle savedInstance;
+
+    SurfaceViewRenderer surfaceView, surfaceView2;
+    ImageView cancelConnect;
+    TextView animText, cntrDown;
+
+    ImageView audioSpeaker, audioMute;
+    LinearLayout connectionMask;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding4 = DataBindingUtil.setContentView(this, R.layout.activity_test_4);
+        setContentView(R.layout.activity_test_4);
 
-        savedInstance = savedInstanceState;
 
         Window window = getWindow();
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
@@ -118,21 +126,39 @@ public class TestActivity_4 extends AppCompatActivity {
             getWindow().getDecorView().setSystemUiVisibility(View.VISIBLE);//  set status text dark
         }
 
+        if(app_DeveloperOption_Check_Mode.equalsIgnoreCase("true")){
+            DevModeOptionCheck.getInstance(this).DevMode_Check();
+        }
+
         MyAdZOne.getInstance(this).ads_NativeCall(findViewById(R.id.native_container));
         MyAdZOne.getInstance(this).showBanner(findViewById(R.id.banner_container));
+
+        surfaceView = findViewById(R.id.surface_view);
+        surfaceView2 = findViewById(R.id.surface_view2);
+
+        cancelConnect = findViewById(R.id.cancel_connect);
+
+        animText = findViewById(R.id.anim_text);
+        cntrDown = findViewById(R.id.cntr_down);
+
+        audioSpeaker = findViewById(R.id.audio_speaker);
+        audioMute = findViewById(R.id.audio_mute);
+
+        connectionMask = findViewById(R.id.connection_mask);
+
 
         Animation anim = new AlphaAnimation(0.0f, 1.0f);
         anim.setDuration(500); //You can manage the blinking time with this parameter
         anim.setStartOffset(50);
         anim.setRepeatMode(Animation.REVERSE);
         anim.setRepeatCount(Animation.INFINITE);
-        binding4.animText.startAnimation(anim);
+        animText.startAnimation(anim);
 
         myCountdownTimer = new CountDownTimer(31000, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 //mTextField.setText("seconds remaining: " + millisUntilFinished / 1000);
-                binding4.cntrDown.setText("00:" + millisUntilFinished / 1000);
+                cntrDown.setText("00:" + millisUntilFinished / 1000);
             }
 
             public void onFinish() {
@@ -144,7 +170,7 @@ public class TestActivity_4 extends AppCompatActivity {
 
         myCountdownTimer.start();
 
-        binding4.cancelConnect.setOnClickListener(new View.OnClickListener() {
+        cancelConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
@@ -236,7 +262,7 @@ public class TestActivity_4 extends AppCompatActivity {
     }
 
     private void connectToSignallingServer() {
-         try {
+        try {
             app_DataIOSocketFails = AESSUtils.Logd(app_DataIOSocketFail);
         } catch (Exception e) {
             e.printStackTrace();
@@ -348,13 +374,13 @@ public class TestActivity_4 extends AppCompatActivity {
 
     private void initializeSurfaceViews() {
         rootEglBase = EglBase.create();
-        binding4.surfaceView.init(rootEglBase.getEglBaseContext(), null);
-        binding4.surfaceView.setEnableHardwareScaler(true);
-        binding4.surfaceView.setMirror(true);
+        surfaceView.init(rootEglBase.getEglBaseContext(), null);
+        surfaceView.setEnableHardwareScaler(true);
+        surfaceView.setMirror(true);
 
-        binding4.surfaceView2.init(rootEglBase.getEglBaseContext(), null);
-        binding4.surfaceView2.setEnableHardwareScaler(true);
-        binding4.surfaceView2.setMirror(true);
+        surfaceView2.init(rootEglBase.getEglBaseContext(), null);
+        surfaceView2.setEnableHardwareScaler(true);
+        surfaceView2.setMirror(true);
 
         //add one more
     }
@@ -373,7 +399,7 @@ public class TestActivity_4 extends AppCompatActivity {
 
         videoTrackFromCamera = factory.createVideoTrack(VIDEO_TRACK_ID, videoSource);
         videoTrackFromCamera.setEnabled(true);
-        videoTrackFromCamera.addRenderer(new VideoRenderer(binding4.surfaceView));
+        videoTrackFromCamera.addRenderer(new VideoRenderer(surfaceView));
 
         //create an AudioSource instance
         audioSource = factory.createAudioSource(audioConstraints);
@@ -444,7 +470,7 @@ public class TestActivity_4 extends AppCompatActivity {
 
                     TestActivity_4.this.runOnUiThread(new Runnable() {
                         public void run() {
-                            binding4.connectionMask.setVisibility(View.GONE);
+                            connectionMask.setVisibility(View.GONE);
                         }
                     });
 
@@ -468,7 +494,7 @@ public class TestActivity_4 extends AppCompatActivity {
                 AudioTrack remoteAudioTrack = mediaStream.audioTracks.get(0);
                 remoteAudioTrack.setEnabled(true);
                 remoteVideoTrack.setEnabled(true);
-                remoteVideoTrack.addRenderer(new VideoRenderer(binding4.surfaceView2));
+                remoteVideoTrack.addRenderer(new VideoRenderer(surfaceView2));
             }
 
             @Override
@@ -540,14 +566,14 @@ public class TestActivity_4 extends AppCompatActivity {
 
     public void speakerONOFFEvent(View view) {
         if (!audioManager.isSpeakerphoneOn()) {
-            binding4.audioSpeaker.setImageResource(R.drawable.on_speker);
+            audioSpeaker.setImageResource(R.drawable.on_speker);
             audioManager.setSpeakerphoneOn(true);
             audioManager.setStreamSolo(AudioManager.STREAM_VOICE_CALL, true);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 audioManager.adjustVolume(AudioManager.ADJUST_UNMUTE, AudioManager.MODE_IN_CALL);
             }
         } else {
-            binding4.audioSpeaker.setImageResource(R.drawable.off_speker);
+            audioSpeaker.setImageResource(R.drawable.off_speker);
             audioManager.setSpeakerphoneOn(false);
             audioManager.setStreamSolo(AudioManager.STREAM_VOICE_CALL, false);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -560,10 +586,10 @@ public class TestActivity_4 extends AppCompatActivity {
     public void audioMuteEvent(View view) {
         audioManager.setMode(AudioManager.MODE_IN_CALL);
         if (audioManager.isMicrophoneMute()) {
-            binding4.audioMute.setImageResource(R.drawable.mic_on);
+            audioMute.setImageResource(R.drawable.mic_on);
             audioManager.setMicrophoneMute(false);
         } else {
-            binding4.audioMute.setImageResource(R.drawable.mic_off);
+            audioMute.setImageResource(R.drawable.mic_off);
             audioManager.setMicrophoneMute(true);
         }
     }

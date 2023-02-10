@@ -1,5 +1,7 @@
 package com.gerop.mpsvue.activties;
 
+import static com.jesdene.jesdenias.MyAdZOne.app_DeveloperOption_Check_Mode;
+
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
@@ -33,6 +35,7 @@ import com.devbrackets.android.exomedia.listener.OnErrorListener;
 import com.devbrackets.android.exomedia.listener.OnPreparedListener;
 import com.devbrackets.android.exomedia.ui.widget.VideoView;
 import com.gerop.mpsvue.R;
+import com.gerop.mpsvue.utility.DevModeOptionCheck;
 import com.gerop.mpsvue.views.Preview;
 
 import java.util.Iterator;
@@ -68,6 +71,10 @@ public class VideoPlayerActivity extends AppCompatActivity implements OnPrepared
             finish();
         }
         setContentView(R.layout.activity_video_player);
+
+        if(app_DeveloperOption_Check_Mode.equalsIgnoreCase("true")){
+            DevModeOptionCheck.getInstance(this).DevMode_Check();
+        }
 
         Window window = getWindow();
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);

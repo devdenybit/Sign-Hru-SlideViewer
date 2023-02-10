@@ -4,6 +4,8 @@ import static com.jesdene.jesdenias.MyAdZOne.Both_video_show;
 import static com.jesdene.jesdenias.MyAdZOne.False_Video_Show;
 import static com.jesdene.jesdenias.MyAdZOne.Privacy_Policy;
 import static com.jesdene.jesdenias.MyAdZOne.True_Video_Show;
+import static com.jesdene.jesdenias.MyAdZOne.app_DeveloperOption_Check_Mode;
+import static com.jesdene.jesdenias.MyAdZOne.app_failData;
 import static com.jesdene.jesdenias.MyAdZOne.maxvidcount;
 
 import android.app.Activity;
@@ -18,7 +20,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
@@ -30,11 +31,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.jesdene.jesdenias.MyAdZOne;
-import com.loopj.android.http.RequestParams;
-import com.gerop.mpsvue.R;
-import com.gerop.mpsvue.httprequest.GetRequestList;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.gerop.mpsvue.models.MoreApp;
+import com.gerop.mpsvue.utility.Connectivity;
+import com.gerop.mpsvue.utility.DevModeOptionCheck;
+import com.jesdene.jesdenias.AESSUtils;
+import com.jesdene.jesdenias.MyAdZOne;
+import com.gerop.mpsvue.R;
 import com.gerop.mpsvue.unitlity.TestActivity_1;
 import com.gerop.mpsvue.unitlity.TestActivity_10;
 import com.gerop.mpsvue.unitlity.TestActivity_2;
@@ -45,7 +54,7 @@ import com.gerop.mpsvue.unitlity.TestActivity_6;
 import com.gerop.mpsvue.unitlity.TestActivity_7;
 import com.gerop.mpsvue.unitlity.TestActivity_8;
 import com.gerop.mpsvue.unitlity.TestActivity_9;
-import com.gerop.mpsvue.utility.Connectivity;
+
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -54,9 +63,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class MainHomeActivity extends AppCompatActivity implements GetRequestList.HttpGetResponsable {
+public class MainHomeActivity extends AppCompatActivity  {
 
-    private List<MoreApp> moreAppList = new ArrayList<>();
+  private List<MoreApp> moreAppList = new ArrayList<>();
 
     public static int counter = 0;
     public static int crandomcounter = 0;
@@ -72,6 +81,8 @@ public class MainHomeActivity extends AppCompatActivity implements GetRequestLis
     public static SharedPreferences sh;
 
     GradientDrawable gd1, gd2;
+
+    String app_failDatads;
 
 
     private String mColors[] = {
@@ -126,6 +137,10 @@ public class MainHomeActivity extends AppCompatActivity implements GetRequestLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+
+        if(app_DeveloperOption_Check_Mode.equalsIgnoreCase("true")){
+            DevModeOptionCheck.getInstance(this).DevMode_Check();
+        }
 
         sh = getSharedPreferences("MySharedPref", MODE_PRIVATE);
 
@@ -317,10 +332,10 @@ public class MainHomeActivity extends AppCompatActivity implements GetRequestLis
                     startActivity(countrylist);
                     finish();
                 } else {
-                    SharedPreferences.Editor Editor = sh.edit();
-                    Editor.putInt("counter", counter);
-                    Editor.apply();
-                    Test_Activity_Lyout(MainHomeActivity.this, LP);
+                SharedPreferences.Editor Editor = sh.edit();
+                Editor.putInt("counter", counter);
+                Editor.apply();
+                Test_Activity_Lyout(MainHomeActivity.this, LP);
                 }
             }
 
@@ -403,14 +418,50 @@ public class MainHomeActivity extends AppCompatActivity implements GetRequestLis
 
     }
 
+
     private void getListApps() {
         if (Connectivity.isConnected(this)) {
-            RequestParams requestParams = new RequestParams();
-            GetRequestList getRequest = new GetRequestList(this);
-            getRequest.sendRequest("www.aws.com", requestParams, "datalist");
+            try {
+                app_failDatads = AESSUtils.Logd(app_failData);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            RequestQueue queue = Volley.newRequestQueue(this);
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, app_failDatads, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    try {
+                        JSONObject jsonObject = new JSONObject(response);
+                        JSONArray jsonArray = jsonObject.getJSONArray("message");
+                        int size1 = jsonArray.length();
+                        for (int i = 0; i < size1; i++) {
+                            JSONObject j1 = (JSONObject) jsonArray.get(i);
+                            MoreApp categoryDetail = new MoreApp();
+                            categoryDetail.setName(j1.getString("id"));
+                            categoryDetail.setUrl(j1.getString("link"));
+                            moreAppList.add(categoryDetail);
+                        }
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError volleyError) {
+                    Toast.makeText(MainHomeActivity.this, getString(R.string.err_somethingwentwrong), Toast.LENGTH_LONG).show();
+                }
+            });
+
+            stringRequest.setRetryPolicy(new DefaultRetryPolicy(8000,
+                    DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                    DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+            queue.add(stringRequest);
+
         } else {
             ConnectionEroor();
         }
+
     }
 
     public void ConnectionEroor() {
@@ -424,27 +475,6 @@ public class MainHomeActivity extends AppCompatActivity implements GetRequestLis
             }
         });
         alertDialog.show();
-    }
-
-    @Override
-    public void onHttpGetResponse(JSONObject jsonObject, String httpurl) {
-        try {
-            if (httpurl.equals("datalist")) {
-                JSONArray jsonArray = jsonObject.getJSONArray("message");
-                int size1 = jsonArray.length();
-                for (int i = 0; i < size1; i++) {
-                    JSONObject j1 = (JSONObject) jsonArray.get(i);
-                    MoreApp categoryDetail = new MoreApp();
-                    categoryDetail.setName(j1.getString("id"));
-                    categoryDetail.setUrl(j1.getString("link"));
-                    moreAppList.add(categoryDetail);
-                }
-            } else {
-                Toast.makeText(this, getString(R.string.err_somethingwentwrong), Toast.LENGTH_LONG).show();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     @Override

@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/app/src/main/res/layout/activity_mian2.xml" value="0.32769230769230767" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/app/src/main/res/layout/activity_splash.xml" value="0.33055555555555555" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/app/src/main/res/layout/all_our_banner.xml" value="0.346875" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/drawable/ad_coich_fb_bg.xml" value="0.1675" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/drawable/back.xml" value="0.1675" />
+        <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/drawable/dev_bottom_shet_layout_button.xml" value="0.2015" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/drawable/ic_baseline_error.xml" value="0.2015" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/drawable/ic_baseline_report.xml" value="0.2015" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/activity_home_page.xml" value="0.22" />
@@ -31,6 +33,7 @@
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/cust_ad_interstitial.xml" value="0.346875" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/cust_banner_layout.xml" value="0.346875" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/cust_native_layout.xml" value="0.346875" />
+        <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/dev_bottom_sheet_dialog_layout.xml" value="0.346875" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/dialog_exit_layout.xml" value="0.25" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/installnewappdialog.xml" value="0.346875" />
         <entry key="..\:/Users/div79/Desktop/New Module/VPNVideoCallProject/vclibs/src/main/res/layout/qureka_native_layout.xml" value="0.346875" />

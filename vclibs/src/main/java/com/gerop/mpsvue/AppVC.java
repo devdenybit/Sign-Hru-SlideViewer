@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.os.StrictMode;
 
-import androidx.multidex.MultiDex;
+// import androidx.multidex.MultiDex;
 
 
 import com.jesdene.jesdenias.Applicationclass;
@@ -50,7 +50,7 @@ public class AppVC extends Applicationclass {
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
-        MultiDex.install(this);
+     //   MultiDex.install(this);
     }
 
     public static AppVC getInstant()

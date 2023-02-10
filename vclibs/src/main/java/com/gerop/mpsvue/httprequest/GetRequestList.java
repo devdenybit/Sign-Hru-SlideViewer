@@ -1,3 +1,4 @@
+/*
 package com.gerop.mpsvue.httprequest;
 
 
@@ -77,3 +78,4 @@ public class GetRequestList {
     }
 
 }
+*/
